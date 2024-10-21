@@ -54,10 +54,119 @@
 									<header class="major">
 										<h1>Normalisation and Data Build</h1>
 									</header>
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+									<p class=MsoNormal>Below you will see a table with data in un-normalised form.
+You should normalise this data to 3rd Normal Form (3NF), showing each step of
+the process i.e., demonstrating 1NF, 2NF and 3NF.</p>
+
+<p class=MsoNormal>There are levels of normalization called normal forms. These
+forms describe levels of data redundancy and anomalies in a database. Common
+forms are as follows:</p>
+
+<p class=MsoNormal><b>1NF<o:p></o:p></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>each column in a table
+contains only atomic values</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>each value in a column is
+indivisible (atomic values)</p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>each row needs a unique
+identifier (Primary Key)</p>
+
+<p class=MsoNormal><b>2NF<o:p></o:p></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>ensure all non-key
+attributes in a table are dependent on the entire primary key.</p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>Ensures table contains only
+one type of data, each data item is represented only once.</p>
+
+<p class=MsoNormal><b>3NF<o:p></o:p></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>Remove data not directly
+related to the primary key and store it in a separate table.</p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>Ensures data is not
+duplicated across tables and each table contains data only related to the
+primary key.</p>
+
+<p class=MsoNormal>Once the original table has been converted to 3NF there are
+now 3 tables:</p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span>Students</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span><span class=SpellE>Student_Course</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l1 level1 lfo2'><![if !supportLists]><span
+style='mso-ascii-font-family:Aptos;mso-fareast-font-family:Aptos;mso-hansi-font-family:
+Aptos;mso-bidi-font-family:Aptos'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span dir=LTR></span><span class=SpellE>Course_Teacher</span></p>
+
+<p class=MsoNormal>While I am sure I have followed the steps correctly, in the
+final 3NF form could possible not be complete. In the Students table, there are
+the attributes Exam Score and Support. While nothing has directly been
+indicated that these are related, it could be assumed that “Support” is
+dependent on “Exam Score” because there could be a score boundary that
+indicates whether a student needs support. With the information given however I
+think that the table can be seen as in 3NF.</p>
+
+<p class=MsoNormal>Another detail noticed while uploading to the e portfolio is
+that the “Student Name” attribute in the students table could be split into
+first and second names to be in 1NF, however I think they can also be treated
+as an individual attribute when together, it does contradict the principle of
+atomic values though. Another possible issue with the final form is the
+“Teacher Name” attribute in the <span class=SpellE>CourseTeacher</span> table,
+this could possibly be split into name and title.</p>
+
+<p class=MsoNormal><b><u>Data Build<o:p></o:p></u></b></p>
+
+<p class=MsoNormal>The database for the above Normalised table was built using
+MySQL in MySQL Workbench. First the Schema needed to be created and was called <span
+class=SpellE>StudentCourses</span>. Then the individual tables were created,
+Students, <span class=SpellE>CourseTeacher</span> and <span class=SpellE>StudentCourse</span>.
+Data types, Primary Keys and Foreign keys were specified.</p>
+
+<p class=MsoNormal>Once the tables were created, they were populated with the
+data and the database was exported. The queries and tables generated are
+indicated below.</p>
+
 								</div>
 							</section>
 
