@@ -3384,7 +3384,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: inline-block;
 		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
