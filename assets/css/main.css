@@ -3384,7 +3384,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: inline-block;
+		display: flex;
 		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
@@ -3394,7 +3394,7 @@ input, select, textarea {
 		cursor: default;
 		height: 60vh;
 		margin-bottom: -3.25em;
-		max-height: 32em;
+		max-height: 33em;
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
